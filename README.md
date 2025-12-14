@@ -91,6 +91,5 @@ For an easy setup, we have provided batch scripts:
 **Do not commit your real API keys or passwords to GitHub.**
 Before pushing this code, ensure you have removed any hardcoded credentials from `main5.py`. It is recommended to use environment variables or a separate `config.py` file listed in `.gitignore`.
 
-## 📄 License
-
-[MIT License](LICENSE)
+## 👨💻 Developed By Bhargav Raval
+### 📧 [bhargavraval.ce19@gmail.com]
