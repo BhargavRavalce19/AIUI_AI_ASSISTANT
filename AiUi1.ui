@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1336</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg_main">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>-40</y>
+      <width>1481</width>
+      <height>891</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_1">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>90</y>
+      <width>511</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>GIF/83ec7dae7e76751eecca2adcf0dcfc49.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_2">
+    <property name="geometry">
+     <rect>
+      <x>-80</x>
+      <y>-30</y>
+      <width>631</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>deco/3ab74962b138cb7396156fd96d0f6408.gif</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>590</y>
+      <width>591</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>deco/Untitled design (2).gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_start">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>button/button_1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_start">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 14pt &quot;Sitka&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_exit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>button/button_1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_exit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 14pt &quot;Sitka&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="tb_time">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>10</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 20pt &quot;Sitka&quot;;
+color: rgb(255, 255, 255);
+border-radius:none;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="tb_date">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>10</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 20pt &quot;Sitka&quot;;
+color: rgb(255, 255, 255);
+border-radius:none;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_resp">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>90</y>
+      <width>391</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AiUi">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>60</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+font: 26pt &quot;Sitka&quot;;</string>
+    </property>
+    <property name="text">
+     <string>A.i.U.i</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>570</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>deco/01.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_5">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>570</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>deco/01.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>491</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="terminalOutputbox">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>140</y>
+      <width>371</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>570</y>
+      <width>231</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>570</y>
+      <width>241</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>bg_main</zorder>
+   <zorder>gif_1</zorder>
+   <zorder>gif_2</zorder>
+   <zorder>gif_3</zorder>
+   <zorder>bg_start</zorder>
+   <zorder>pb_start</zorder>
+   <zorder>bg_exit</zorder>
+   <zorder>pb_exit</zorder>
+   <zorder>bg_resp</zorder>
+   <zorder>tb_time</zorder>
+   <zorder>tb_date</zorder>
+   <zorder>AiUi</zorder>
+   <zorder>label</zorder>
+   <zorder>gif_5</zorder>
+   <zorder>gif_4</zorder>
+   <zorder>terminalOutputbox</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
