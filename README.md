@@ -46,7 +46,7 @@ A.i.U.i is a futuristic Desktop Voice Assistant application built with Python an
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/AiUi.git
+    git clone https://github.com/BhargavRavalce19/AiUi.git
     cd AiUi
     ```
 
